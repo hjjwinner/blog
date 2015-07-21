@@ -1,0 +1,51 @@
+/*------------------------------------*\
+    #SERIES
+\*------------------------------------*/
+
+
+a.series-recent {
+  background-color: $clr-link;
+  padding: 8px 20px;
+  display: inline-block;
+  width: 200px;
+  color: $clr-def-lighter;
+  text-shadow: $sd-def;
+  float: right;
+  text-align: right;
+  font-weight: $ft-wt-def;
+  
+  &:visited {
+    background-color: $clr-link--visited;
+    color: $clr-def-lighter;
+  }
+  
+  &:hover {
+    background-color: $clr-link--hover;
+    color: $clr-def-lighter;
+  }
+  
+  &:active {
+    background-color: $clr-link--active;
+  }
+}
+
+.series-post {
+  font-family: Lato, 'Times New Roman', Arial, sarif;
+  font-size: 15px;
+  display: block;
+  background-color: #AEE2D9;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+}
+
+.seriesNote {
+  font-weight: bold;
+}
+
+.series-self {
+  list-style-type: circle;
+}
+
+.series-not-self {
+  list-style-type: disc;
+}
